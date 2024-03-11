@@ -47,7 +47,6 @@ html {
 .header__content {
   padding-left: 26px; 
   padding-right: 26px;
-
 }
 
 .main-menu {
@@ -214,7 +213,7 @@ html {
 
 .lots {
   padding: 0 24px;
-  margin-top: 179px 
+  margin-top: 179px; 
 }
 
 .lots__title {
