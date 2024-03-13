@@ -175,7 +175,7 @@ html {
 }
 
 .cover__button {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   border: 1px solid currentColor;
   margin: 0;
   padding: 12px 32px 11px 31px;
@@ -308,12 +308,10 @@ html {
 
 .about__text p:first-child {
   letter-spacing: 0.1px;
+  margin-top: 0;
   
 }
 
-.about__text .no-margin {
-  margin-top: 0;
-}
 /* about ends */
 
 /* footert starts */
