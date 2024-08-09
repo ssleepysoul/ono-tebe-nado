@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,15 +9,12 @@
   <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
-
-<!-- header starts -->
-
 <body class="page">
   <header class="page__header header">
     <div class="header__content columns-centered columns-centered-vertical">
-      <nav>
+      <nav class="column-centered__left">
         <ul class="main-menu">
-          <li class="main-menu__item"><a class="link link--active" href="">главная</a></li>
+          <li class="main-menu__item"><a class="link link_active" href="">главная</a></li>
           <li class="main-menu__item"><a class="link" href="">посмотреть лоты</a></li>
           <li class="main-menu__item"><a class="link" href="">об аукционе</a></li>
         </ul>
@@ -38,19 +34,13 @@
       </div>
     </div>
   </header>
-  <!-- header ends -->
-
-
-
-  <!-- cover starts -->
-
   <main class="main">
     <section class="cover">
       <div class="overlay"></div>
       <h1 class="cover__title">
-        <span class="cover__title-word title-word">о<span class="title-word__space">нo</span></span>
-        <span class="cover__title-word title-word">те<span class="title-word__space">бе</span></span>
-        <span class="cover__title-word title-word"><span class="title-word__space">н</span>ад<span class="title-word__no-space">о</span></span>
+        <span class="cover__title-word">о<span class="cover__title-word-space">нo</span></span>
+        <span class="cover__title-word">те<span class="cover__title-word-space">бе</span></span>
+        <span class="cover__title-word"><span class="cover__title-word-space">н</span>ад<span class="cover__title-word-no-space">о</span></span>
       </h1>
       <div class="cover__bottom">
         <p class="cover__subtitle">
@@ -59,16 +49,10 @@
         <button type="button" class="cover__button">Сделать ставку</button>
       </div>
     </section>
-
-    <!-- cover ends -->
-
-
-    <!-- lots start -->
-
     <section class="lots">
       <h2 class="lots__title">лоты</h2>
-      <ul class="card-list">
-        <li class="card card-list__item card_left">
+      <ul class="lots__content card-list">
+        <li class="card card_left">
           <a href="">
             <div class="overlay"></div>
             <div class="card__content">
@@ -78,8 +62,7 @@
             </div>
           </a>
         </li>
-
-        <li class="card card-list__item card_middle">
+        <li class="card card_middle">
           <a href="">
             <div class="overlay"></div>
             <div class="card__content">
@@ -92,8 +75,7 @@
             </div>
           </a>
         </li>
-
-        <li class="card card-list__item card_right">
+        <li class="card card_right">
           <a href="">
             <div class="overlay"></div>
             <div class="card__content">
@@ -107,14 +89,9 @@
       </ul>
       <div class="lots__link"><a class="link">посмотреть больше</a></div>
     </section>
-
-    <!-- lots end -->
-
-    <!-- about starts -->
-
     <section class="about">
       <div class="about__logo">
-        <div class="logo__circle">
+        <div class="logo-circle">
           <img src="images/logo-white.svg" alt="логотип оно тебе надо" width="148" height="114">
         </div>
       </div>
@@ -138,9 +115,6 @@
         </div>
       </div>
     </section>
-    <!-- about ends -->
-
-    <!-- footer starts -->
   </main>
   <footer class="page__footer footer">
     <div class="columns-centered">
@@ -153,25 +127,21 @@
           </div>
         </div>
       </div>
-      <div class="column-centered__middle">
-        <nav>
-          <ul class="main-menu main-menu--footer">
-            <li class="main-menu__item"><a class="link link--active" href="">главная</a></li>
-            <li class="main-menu__item"><a class="link" href="">посмотреть лоты</a></li>
-            <li class="main-menu__item"><a class="link" href="">об аукционе</a></li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="column-centered__middle">
+        <ul class="main-menu main-menu_footer">
+          <li class="main-menu__item"><a class="link link_active" href="">главная</a></li>
+          <li class="main-menu__item"><a class="link" href="">посмотреть лоты</a></li>
+          <li class="main-menu__item"><a class="link" href="">об аукционе</a></li>
+        </ul>
+      </nav>
       <div class="column-centered__right">
-        <ul class="socials__logos">
-          <li><a class="socials__logo"><img src="images/yt.svg" alt="логотип ютьюба" width="48" height="48"></a></li>
-          <li><a class="socials__logo"><img src="images/vk.svg" alt="логотип вконтакте" width="48" height="48"></a></li>
-          <li><a class="socials__logo"><img src="images/pinterest.svg" alt="логотип пинтерест" width="48"
-                height="48"></a></li>
+        <ul class="socials-logos">
+          <li><a><img src="images/yt.svg" alt="логотип ютьюба" width="48" height="48"></a></li>
+          <li><a><img src="images/vk.svg" alt="логотип вконтакте" width="48" height="48"></a></li>
+          <li><a><img src="images/pinterest.svg" alt="логотип пинтерест" width="48" height="48"></a></li>
         </ul>
       </div>
     </div>
   </footer>
 </body>
-
 </html>
